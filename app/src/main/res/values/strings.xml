@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SpaJam2018</string>
+    <string name="title_activity_story">StoryActivity</string>
+    <string name="hukkin">腹筋</string>
+    <string name="udetate">腕立て</string>
+    <string name="sukuwatto">スクワット</string>
+
 </resources>

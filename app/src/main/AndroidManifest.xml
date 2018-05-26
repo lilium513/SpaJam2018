@@ -8,13 +8,22 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".TitleActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".LoadingActivity" />
+        <activity android:name=".TrainActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity
+            android:name=".StoryActivity"
+            android:label="@string/title_activity_story"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CameraSettingActivity"></activity>
     </application>
 
 </manifest>
